@@ -27,22 +27,5 @@ public class FeedsPage extends WebPage {
    * @param parameters Page parameters
    */
   public FeedsPage(final PageParameters parameters) {
-
-    // Add the simplest type of label
-    add(new Label("message", "If you see this message wicket is properly configured and running"));
-
-    // Add commentListView of existing comments
-    ArrayList<Data> data = new ArrayList<Data>();
-    data.add(new Data(new Date(), "aaaa"));
-    data.add(new Data(new Date(), "aaaa"));
-    data.add(new Data(new Date(), "aaaa"));
-
-    add(new PropertyListView<Data>("comments", data) {
-      @Override
-      public void populateItem(final ListItem<Data> listItem) {
-        listItem.add(new Label("date"));
-        listItem.add(new MultiLineLabel("text"));
-      }
-    }).setVersioned(false);
   }
 }

@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="afop-stripes:war">
+  <artifact type="war" name="afop-wicket:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="afop-wicket-1.0.war">
-      <element id="artifact" artifact-name="afop-stripes:war exploded" />
+      <element id="artifact" artifact-name="afop-wicket:war exploded" />
     </root>
   </artifact>
 </component>

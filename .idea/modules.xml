@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/afop-stripes.iml" filepath="$PROJECT_DIR$/afop-stripes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/afop-wicket.iml" filepath="$PROJECT_DIR$/afop-wicket.iml" />
     </modules>
   </component>
 </project>

@@ -2,7 +2,7 @@ package pl.edu.agh;
 
 import junit.framework.TestCase;
 import org.apache.wicket.util.tester.WicketTester;
-import pl.edu.agh.student.WicketApplication;
+import pl.edu.agh.student.AfopApplication;
 import pl.edu.agh.student.view.HomePage;
 
 /**
@@ -13,7 +13,7 @@ public class TestHomePage extends TestCase {
 
   @Override
   public void setUp() {
-    tester = new WicketTester(new WicketApplication());
+    tester = new WicketTester(new AfopApplication());
   }
 
   public void testRenderMyPage() {

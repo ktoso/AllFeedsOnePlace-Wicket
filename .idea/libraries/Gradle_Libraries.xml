@@ -1,0 +1,49 @@
+<component name="libraryTable">
+  <library name="Gradle Libraries">
+    <CLASSES>
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.apache.wicket/wicket/jars/wicket-1.5-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.apache.wicket/wicket-util/jars/wicket-util-1.5-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.5.8.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.apache.wicket/wicket-request/jars/wicket-request-1.5-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.apache.wicket/wicket-guice/jars/wicket-guice-1.5-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.apache.wicket/wicket-ioc/jars/wicket-ioc-1.5-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/cglib/cglib-nodep/jars/cglib-nodep-2.1_3.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/com.google.inject/guice/jars/guice-2.0.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.hibernate/ejb3-persistence/jars/ejb3-persistence-1.0.2.GA.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.hibernate/hibernate-annotations/jars/hibernate-annotations-3.4.0.GA.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.hibernate/hibernate-commons-annotations/jars/hibernate-commons-annotations-3.3.0.ga.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.hibernate/hibernate/jars/hibernate-3.2.1.ga.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/antlr/antlr/jars/antlr-2.7.7.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/asm/asm/jars/asm-3.2.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/commons-collections/commons-collections/jars/commons-collections-3.1.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/javax.transaction/jta/jars/jta-1.1.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/net.sf.ehcache/ehcache/jars/ehcache-1.2.3.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/asm/asm-attrs/jars/asm-attrs-1.5.3.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/cglib/cglib/jars/cglib-2.1_3.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.hibernate/hibernate-core/jars/hibernate-core-3.3.1.GA.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.hibernate/hibernate-search/jars/hibernate-search-3.1.0.GA.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.apache.lucene/lucene-core/jars/lucene-core-2.4.0.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/javax.validation/validation-api/jars/validation-api-1.0.CR5.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/log4j/log4j/jars/log4j-1.2.14.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.5.8.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.mortbay.jetty/jetty/jars/jetty-6.1.25.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.25.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.mortbay.jetty/servlet-api/jars/servlet-api-2.5-20081211.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.mortbay.jetty/jetty-management/jars/jetty-management-6.1.25.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/commons-io/commons-io/jars/commons-io-1.4.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/com.google.guava/guava/jars/guava-r07.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/org.codehaus.groovy/groovy/jars/groovy-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/asm/asm-commons/jars/asm-commons-3.2.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/asm/asm-tree/jars/asm-tree-3.2.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/asm/asm-util/jars/asm-util-3.2.jar!/" />
+      <root url="jar://$USER_HOME_GRADLE$/cache/asm/asm-analysis/jars/asm-analysis-3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
