@@ -8,6 +8,7 @@
   </component>
   <component name="CppTools.Loader" reportImplicitCastToBool="false" reportNameReferencedOnce="false" version="3" compilerSelect="AUTO" />
   <component name="DependencyValidationManager">
+    <scope name="all java" pattern="test[afop-wicket]:pl.edu.agh.*||src[afop-wicket]:pl.edu.agh.student..*||test[afop-wicket]:pl.edu.agh..*" />
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="EntryPointsManager">
