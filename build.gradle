@@ -35,9 +35,10 @@ dependencies {
   compile group: 'org.mortbay.jetty', name: 'jetty-util', version: '6.1.25', scope: 'provided'
   compile group: 'org.mortbay.jetty', name: 'jetty-management', version: '6.1.25', scope: 'provided'
 
-  // other tools
+  // other tools (Guava, Mockito)
   compile group: 'commons-io', name: 'commons-io', version: '1.4'
   compile group: 'com.google.guava', name: 'guava', version: 'r07'
+  compile group: 'org.mockito', name: 'mockito-all', version: '1.8.1'
 
   // intellij sync
   groovy 'org.codehaus.groovy:groovy:1.7.2'
