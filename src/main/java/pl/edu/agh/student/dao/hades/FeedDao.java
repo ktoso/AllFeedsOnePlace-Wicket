@@ -15,16 +15,14 @@
  * along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package pl.edu.agh.student.dao;
+package pl.edu.agh.student.dao.hades;
 
 import com.google.inject.ImplementedBy;
-import pl.edu.agh.student.model.Feed;
 
 /**
  * Date: 20.12.10
  *
  * @author Konrad Malawski
  */
-@ImplementedBy(FeedDaoHibernate.class)
-public interface FeedDao extends BaseHibernateDao<Feed> {
+public interface FeedDao {
 }

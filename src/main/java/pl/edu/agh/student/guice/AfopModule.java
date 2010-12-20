@@ -22,8 +22,6 @@ import com.google.inject.Provides;
 import org.apache.log4j.Logger;
 import org.quartz.Job;
 import org.quartz.Scheduler;
-import pl.edu.agh.student.dao.FeedDao;
-import pl.edu.agh.student.dao.FeedDaoHibernate;
 import pl.edu.agh.student.jobs.FetchFeedJob;
 
 import java.util.List;

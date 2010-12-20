@@ -8,6 +8,7 @@ repositories {
   mavenRepo urls: "http://repository.jboss.com/maven2"
   mavenRepo urls: "http://bzb-framework.googlecode.com/svn/maven-repository"
   mavenRepo urls: "http://wicketstuff.org/maven/repository"
+  mavenRepo urls: "http://maven.atlassian.com/repository/public"
 }
 
 dependencies {
@@ -23,7 +24,7 @@ dependencies {
   compile group: 'javax.validation', name: 'validation-api', version: '1.0.CR5'
 
   // hades
-//  compile group: 'org.synyx.hades', name: 'org.synyx.hades', version: '2.0.0.RELEASE'
+  compile group: 'org.synyx.hades', name: 'org.synyx.hades', version: '2.0.0.RELEASE'
 
   // logging
   compile group: 'log4j', name: 'log4j', version: '1.2.14'

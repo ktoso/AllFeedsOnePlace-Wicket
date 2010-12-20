@@ -15,14 +15,33 @@
  * along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package pl.edu.agh.student.dao;
+package pl.edu.agh.student.guice.hades;
 
-import pl.edu.agh.student.model.Feed;
+import com.google.inject.Provides;
+import pl.edu.agh.student.dao.hades.FeedDao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Persistence;
+
+import org.synyx.hades.dao.orm.*;
 
 /**
  * Date: 20.12.10
  *
  * @author Konrad Malawski
  */
-public class FeedDaoHibernate extends BaseHibernateDaoImpl<Feed> implements FeedDao {
+
+public class HadesDaoProvider {
+
+  GenericDaoFactory factory;
+
+  public HadesDaoProvider() {
+    EntityManager em = Persistence.getEntityManagerFactory().createEntityManager();
+    factory = GenericDaoFactory.create(em);
+  }
+
+  @Provides
+  public FeedDao getFeedDao() {
+    return factory.getDao(FeedDao.class);
+  }
 }
