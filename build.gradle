@@ -35,6 +35,12 @@ dependencies {
   compile group: 'org.mortbay.jetty', name: 'jetty-util', version: '6.1.25', scope: 'provided'
   compile group: 'org.mortbay.jetty', name: 'jetty-management', version: '6.1.25', scope: 'provided'
 
+  // quartz 
+  compile group: 'org.quartz-scheduler', name: 'quartz', version: '1.8.3'
+//  compile group: 'org.quartz-scheduler', name: 'quartz-oracle', version: '1.8.3'
+//  compile group: 'org.quartz-scheduler', name: 'quartz-weblogic', version: '1.8.3'
+//  compile group: 'org.quartz-scheduler', name: 'quartz-jboss', version: '1.8.3'
+
   // other tools (Guava, Mockito)
   compile group: 'commons-io', name: 'commons-io', version: '1.4'
   compile group: 'com.google.guava', name: 'guava', version: 'r07'
@@ -75,8 +81,8 @@ private void callServlet() {
 }
 
 // ------------ sync with intellij dependencies ------------------
-sourceCompatibility = 1.5
-version = '0.1-SNAPSHOT'
+sourceCompatibility = 1.6
+version = '1.0-SNAPSHOT'
 
 final def GRADLE_TEST_LIBRARIES_ID = 'Gradle Test Libraries'
 task intellijSync << {

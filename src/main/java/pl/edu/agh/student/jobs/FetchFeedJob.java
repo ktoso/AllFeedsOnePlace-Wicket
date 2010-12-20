@@ -15,43 +15,35 @@
  * along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package pl.edu.agh.student.guice;
+package pl.edu.agh.student.jobs;
 
-import com.google.inject.AbstractModule;
-import com.google.inject.Provides;
+import com.google.common.base.Charsets;
+import com.google.common.io.Files;
+import com.google.inject.Inject;
 import org.apache.log4j.Logger;
 import org.quartz.Job;
-import org.quartz.Scheduler;
-import pl.edu.agh.student.dao.FeedDao;
-import pl.edu.agh.student.dao.FeedDaoHibernate;
-import pl.edu.agh.student.jobs.FetchFeedJob;
+import org.quartz.JobExecutionContext;
+import org.quartz.JobExecutionException;
 
-import java.util.List;
-
-import static com.google.common.collect.Lists.newArrayList;
+import java.io.File;
+import java.io.IOException;
 
 /**
- * Date: 19.12.10
+ * Date: 20.12.10
  *
  * @author Konrad Malawski
  */
-public class AfopModule extends AbstractModule {
+public class FetchFeedJob implements Job {
 
   Logger log = Logger.getLogger(this.getClass());
 
-  @Override
-  protected void configure() {
-    // quartz
-    bind(Scheduler.class).toProvider(SchedulerProvider.class).asEagerSingleton();
+  @Inject
+  public FetchFeedJob() {
+
   }
 
-  @Provides
-  @QuartzJobs
-  List<Class<? extends Job>> providePayPalCreditCardProcessor() {
-    List<Class<? extends Job>> jobs = newArrayList();
-
-    jobs.add(FetchFeedJob.class);
-
-    return jobs;
+  public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+    log.info(String.format("Running %s...", this.getClass().getSimpleName()));
+    //todo implement me
   }
 }
