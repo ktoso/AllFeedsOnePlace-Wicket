@@ -18,6 +18,7 @@
 package pl.edu.agh.student.dao;
 
 import com.google.inject.ImplementedBy;
+import pl.edu.agh.student.model.Feed;
 
 /**
  * Date: 20.12.10
@@ -25,5 +26,5 @@ import com.google.inject.ImplementedBy;
  * @author Konrad Malawski
  */
 @ImplementedBy(FeedDaoHibernate.class)
-public interface FeedDao {
+public interface FeedDao extends BaseHibernateDao<Feed> {
 }
